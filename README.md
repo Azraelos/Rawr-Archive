@@ -21,6 +21,7 @@ Rawr.Base:
 - Change dwarf racial from armor multiplier to damage reduction multiplier.
 - Fixes to printing.
 - Added US-Gallywix server to the server list.
+
 Rawr.ProtPaladin:
 - Fix stat display calculations.
 - Fix the issue where going over the block cap completely wrecked defensive stat values.
@@ -32,11 +33,14 @@ Rawr.ProtPaladin:
 - Fix display values to show static combat table values, including always-up special effects.
 - Incorporate paladin tank cooldowns and Avenging Wrath in special effects.
 - Fix 2T12 set bonus.
+
 Rawr.Enhance:
 - Small changes for the display
 - First go at counting damage procs. Still needs some work
+
 Rawr.Mage:
 - Fix for int stacking effects in genetic solver.
+
 Rawr.Moonkin:
 - Comprehensive rebuild of moonkin simulator.
 
@@ -46,14 +50,17 @@ Rawr.Base.Items:
 - All Dragon Soul Plate Tanking Socket Bonuses have been fixed
 - Removed unnessasary Unique IDs from Fireland Rep trinkets
 - Updated with missing Dodge, Parry, and Expertise socket bonus values
+
 Rawr.Enhance:
 - Fix for trinkets being badly valued (sans trinkets that proc damage)
 - Minor fix for export to enhsim
 - Tweak to Windfury calcs
+
 Rawr.Mage:
 - Updating Fireball/Pyroblast coefficients for 4.3.2.
 - Fix for elixir and flask chart.
 - Fix for aoe mode with cycle level procs.
+
 Rawr.Moonkin:
 - Major fixes to DoT calculations in the simulator:
 - Slight change to the calculation of NG DoT tick rate in the simulator.
@@ -67,19 +74,23 @@ Rawr 4.3.6
 Rawr.Enhance:
 - SP is now correctly set to 55% of AP
 - Further tweaks to Export to EnhSim
+
 Rawr.DPSDK:
 - Fix for 21931 - Gargoyle damage was not actually related to Summon Gargoyle talent like it should be.
 - Fix for 21932: Unholy Frenzy wasn't modeled.
 - 21930: SS was not properly taking into account Bonus damage from mastery for it's shadow component.
+
 Rawr.Mage:
 - Improved fire cycle models.
 - Combustion policy optimization tool (using idealized ignite model currently, still need to add the free tick model).
+
 Rawr.ProtPaladin:
 - Remove the behavior where a negative chance to be crit was reducing the average damage per hit/attack, which was causing mastery to be way overvalued even past the block cap.
 - Fix the combat table so that entries below block are properly adjusted.
 - Reduce Holy Shield static %BV to 6.67% from 10% to match the new Holy Shield mechanic.
 - Change the %BV meta gem to be applied as a multiplier.
 - Add explanatory tooltips to the character stats tab to help explain differences in display between Rawr and live.
+
 Rawr.Moonkin:
 - Add caster crit chance to trinket procs.
 - Fix a bug with the Variable Pulse Lightning Capacitor that was double-counting its proc.
@@ -97,6 +108,7 @@ Rawr 4.3.5
 Rawr.Base:
 - Changed server name from Aggra to Aggra-Portugues to work with Blizzard's API.
 - Adding Nozdormu's Presence temporary buff.
+
 Rawr.Items:
 - Updated all 3 Timepiece of the Bronze Flight's with a gem socket that Blizzard hot fixed
 - Kiril, Fury of Beasts was hotfixed with undocumented Bonus Armor
@@ -106,15 +118,20 @@ Rawr.Items:
 - Updated Item Cache with Cunning, Vial, and Bone-Link SP/AP Scaling
 - Fixed Rathrak, the Poisonous Mind (LFR 390) not having a Mage Restriction associated with it.
 - Gurthalak now procs 10 times over 12 secs; up from 8 times over 10 seconds.
+
 Rawr.Enhance:
 - Add export for T13 set bonus's
 - Fix for incorrect AP/SP values
+
 Rawr.Cat:
 - Added support for AP Scaling
+
 Rawr.Bear:
 - Added support for AP Scaling
+
 Rawr.Mage:
 - Changing effect procs to 2x crit multiplier, support for spell power modified damage procs.
+
 Rawr.Moonkin:
 - Support proc effects that benefit from spell power scaling.
 - 4.3.2 PTR: 4T13 set bonus now also increases Starsurge damage by 10%.
